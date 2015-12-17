@@ -1,0 +1,39 @@
+main {
+  min-height: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: colunm;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+main, section {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: colunm;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+
+}
+
+section {
+  -webkit-flex: 1;
+  flex: 1;
+}
+.footer {
+  -webkit-flex: 0 0;
+  flex: 0 0;
+}
+.footer a {
+  display: block;
+}
